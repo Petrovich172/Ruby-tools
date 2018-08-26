@@ -124,7 +124,7 @@ def cut_navigation(hash)
   return hash
 end
 
-def check_for_movment(true_navi_mas, all_navi_mas, location)
+def check_for_movement(true_navi_mas, all_navi_mas, location)
     second_filter_points_mas = []
     true_navi_mas.each{|true_el|
       first_filter_points_mas = []
